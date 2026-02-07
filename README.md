@@ -7,3 +7,5 @@ koning Frederik I van Pruisen.", wat gebeurde in 1701.
 Na 20:26 is het gewoon een klok, want de toekomst is nog ongewis.
 
 Gebeurtenissen komen van Wikipedia.
+
+![Preview](watchface/src/main/res/drawable/preview.png)
