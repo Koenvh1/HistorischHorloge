@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HistoricTime"
+rootProject.name = "Historisch Horloge"
 include(":watchface")
  
