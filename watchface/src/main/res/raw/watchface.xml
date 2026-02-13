@@ -99,7 +99,7 @@
                         size="128"
                         >
                         <Template><![CDATA[%s%s]]>
-                            <Parameter expression="[HOUR_0_23]" />
+                            <Parameter expression="[HOUR_0_23] != 0 ? [HOUR_0_23] : &quot;&quot;" />
                             <Parameter expression="[MINUTE_Z]" />
                         </Template>
                     </Font>
