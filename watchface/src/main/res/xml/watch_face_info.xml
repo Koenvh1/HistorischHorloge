@@ -6,4 +6,6 @@
     https://developer.android.com/training/wearables/wff/setup#declare-metadata
     -->
     <Preview value="@drawable/preview" />
+    <MultipleInstancesAllowed value="false" />
+    <Editable value="false" />
 </WatchFaceInfo>

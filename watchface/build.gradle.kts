@@ -4,22 +4,20 @@ plugins {
 
 android {
     namespace = "nl.koenvh.historictime"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "nl.koenvh.historictime"
         minSdk = 33
         targetSdk = 36
-        versionCode = 1
+        versionCode = 1001
         versionName = "1.0"
-
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
